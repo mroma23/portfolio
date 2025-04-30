@@ -1,13 +1,13 @@
 /* Place CSS styles here */
 body {
-    color: rgb(28, 1, 20);
-    background-color:rgb(246, 190, 213);
+    color: rgb(25, 5, 66);
+    background-color:rgb(120, 210, 218);
     font-family: "Kadwa", serif; 
     text-align: center;
   
 }
 
-p {color: rgb(76, 2, 47);}
+p {color: rgb(17, 8, 29);}
 
 .ingredients{
     padding-left: 30px;
@@ -16,6 +16,6 @@ p {color: rgb(76, 2, 47);}
    
 }
 header{
-    color: rgb(66, 9, 81);
+    color: rgb(2, 44, 98);
     font-family: 'Courier New', Courier, monospace;
 }

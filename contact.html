@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mallory Portfolio</title>
+  <meta name="description" content="this page shows off my artwork">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/3f7c614ad2.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+    </style>
+  <meta name="theme-color" content="#fafafa">
+</head>
+</head>
+<body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <span>Mallory</span>
+        </div>
+        <div class="links">
+            <div class="link"><a href="index.html">Home</a></div>
+            <div class="link"><a href="about.html">About</a></div>
+            <div class="link"><a href="work.html">Work</a></div>
+            <div class="link contact-btn"><a href="contact.html">Contact Me</a></div>
+          </div>
+        <i class="fa-solid fa-bars hamburger"></i>
+      </div>
+      <i class="fa-solid fa-bars hamburger" onclick="hamburger()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact Me</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+      </div>
+
+      <div class="contact-header"> <h1>Contact Me!</h1>
+        <p>Email: mroma23@lsu.edu </p>
+        <p>Phone: (985)278-7039 </p>
+    </div>
+    <div class="socials">
+    <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a> 
+        <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+       </div>
+    </div>
+    <script>
+        function hamburger(){
+          const navbar = document.querySelector(".dropdown")
+          navbar.style.transform = "translateY(0px)"
+        }
+        function cancel(){
+          const navbar = document.querySelector(".dropdown")
+          navbar.style.transform = "translateY(-500px)"
+        }
+      </script>
